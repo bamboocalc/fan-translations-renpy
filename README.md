@@ -1,5 +1,5 @@
 # fan-translations-renpy
-Support fan translations in your Ren'Py game without the translators needing to modify your code
+Support fan translations in your Ren'Py game without the translators needing to modify your code or redistribute altered versions of your game
 
 This code supports the top 32 most commonly used languages online.
 
