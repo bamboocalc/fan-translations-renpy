@@ -1,4 +1,4 @@
-# support for unofficial fan translations in a renpy game without further modification to the game files
+# Support for unofficial fan translations in a Ren'Py game without further modification to the game files
 Support fan translations in your Ren'Py game without the translators needing to modify your code or redistribute altered versions of your game.
 
 We will use NotoSans, which is an open-source font designed by Google under the SIL Open Font License (and it looks pleasant enough for most visual novels).
