@@ -1,3 +1,7 @@
+######################################################################
+
+# Insert this code in script.rpy inside an existing init python block
+
 init python:    
     import os
 
