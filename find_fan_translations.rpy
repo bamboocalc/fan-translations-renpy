@@ -11,8 +11,7 @@ init python:
         if os.path.isdir(tl_path):
             for folder_name in os.listdir(tl_path):
                 # Exclude "None" folder and any hidden files
-                if folder_name.lower() != "none" and not folder_name.startswith('.'):
-                    lang_name = folder_name.lower()
+                if folder_name != "None" and not folder_name.startswith('.'):
                     available_translations.append(folder_name)
         return available_translations
 
@@ -44,3 +43,5 @@ define gui.interface_text_font = "DejavuSans.ttf"
 default gui.text_font = "NotoSans-Regular.ttf"
 default gui.name_text_font = "NotoSans-Regular.ttf"
 default gui.interface_text_font = "NotoSans-Regular.ttf"
+
+
