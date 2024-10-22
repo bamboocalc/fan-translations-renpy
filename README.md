@@ -1,5 +1,11 @@
 # fan-translations-renpy
-Support fan translations in your Ren'Py game without the translators needing to modify your code or redistribute altered versions of your game
+Support fan translations in your Ren'Py game without the translators needing to modify your code or redistribute altered versions of your game.
+
+We will use NotoSans, which is an open-source font designed by Google under the SIL Open Font License (and it looks pleasant enough for most visual novels).
+
+* NotoSans: https://fonts.google.com/noto/specimen/Noto+Sans
+
+Place this font in your `game/fonts` directory
 
 **PLEASE NOTE:**
 * This code currently only supports languages covered by the base NotoSans font.
@@ -7,11 +13,6 @@ Support fan translations in your Ren'Py game without the translators needing to 
 * This code assumes the game's default language (i.e. language `None`) is English.
 * This code assumes that the language folders inside the `game/tl` directory will use their English names. (e.g. "German" instead of "Deutsch")
 
-NotoSans is an open-source font designed by Google under the SIL Open Font License, and it looks pleasant enough for most visual novels.
-
-* NotoSans: https://fonts.google.com/noto/specimen/Noto+Sans
-
-Place this font in your `game/fonts` directory
 
 **IMPORTANT:** Make sure to publically provide translation files for your game, otherwise this code will be near-useless. 
 
