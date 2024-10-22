@@ -1,11 +1,19 @@
 # fan-translations-renpy
 Support fan translations in your Ren'Py game without the translators needing to modify your code or redistribute altered versions of your game
 
-This code supports the top 32 most commonly used languages online.
+**PLEASE NOTE:**
+* This code currently only supports languages covered by the base NotoSans font.
+  * English, Spanish, French, German, Italian, Portuguese, Dutch, Swedish, Norwegian, Danish, Finnish, Icelandic, Irish, Polish, Czech, Slovak, Slovenian, Croatian, Bosnian, Serbian, Albanian, Romanian, Hungarian, Turkish, Estonian, Latvian, Lithuanian, Maltese, Afrikaans, Swahili, Filipino, Indonesian, Malay, Vietnamese, Zulu, Xhosa, Welsh, Galician, Catalan, Basque, Luxembourgish, Frisian, Latin, Greek, Russian, Ukrainian, Bulgarian, Belarusian, Serbian, Macedonian, Kazakh, Kyrgyz, Tajik, Mongolian, Bashkir, Tatar 
+* This code assumes the default language (i.e. language `None`) is English.
+* This code assumes that the language folders inside the `game/tl` directory will use their English names. (e.g. "German" instead of "Deutsch")
 
-This code also assumes the default language (i.e. language `None`) is English.
+NotoSans is an open-source font designed by Google under the SIL Open Font License, and it looks pleasant enough for most visual novels.
 
-Make sure to publically provide translation files on an Itchio page or similar. 
+* NotoSans: https://fonts.google.com/noto/specimen/Noto+Sans
+
+Place this font in your `game/fonts` directory
+
+**IMPORTANT:** Make sure to publically provide translation files for your game, otherwise this code will be near-useless. 
 
 1. Open up your Ren'Py SDK, click "Generate Translations" and type `qliphoth` in the Language field. (This name is a placeholder. The translator will need to do a Find and Replace on all instances of "qliphoth" when doing translations for their desired language)
 
@@ -15,26 +23,3 @@ Make sure to publically provide translation files on an Itchio page or similar.
 
 4. A new folder should have generated in the `game/tl` directory
 
-**NOTE:** Please consider using Noto Sans as your game's system font. It is an open-source font designed by Google under the SIL Open Font License, and it looks pleasant enough for most visual novels.
-
-These are download links to all the NotoSans fonts referenced in the code:
-
-* NotoSans: https://fonts.google.com/noto/specimen/Noto+Sans
-
-* NotoSans Japanese: https://fonts.google.com/noto/specimen/Noto+Sans+JP
-
-* NotoSans Korean: https://fonts.google.com/noto/specimen/Noto+Sans+KR
-
-* NotoSans Arabic: https://fonts.google.com/noto/specimen/Noto+Sans+Arabic
-
-* NotoSans Oriya: https://fonts.google.com/noto/specimen/Noto+Serif+Oriya
-
-* NotoSans Simplified Chinese: https://fonts.google.com/noto/specimen/Noto+Sans+SC
-
-* NotoSans Thai: https://fonts.google.com/noto/specimen/Noto+Sans+Thai?query=Thai
-
-* NotoSans Hebrew: https://fonts.google.com/noto/specimen/Noto+Sans+Hebrew?query=Hebrew
-
-* NotoSans Devanagari: https://fonts.google.com/noto/specimen/Noto+Sans+Devanagari?query=Devanagari
-
-Place all fonts in your `game/fonts` directory
