@@ -15,7 +15,7 @@ Make sure to publically provide translation files on an Itchio page or similar.
 
 4. A new folder should have generated in the `game/tl` directory
 
-**NOTE:** Please consider using Noto Sans as your game's system font. It is an open-source font designed by Google under the SIL Open Font License (OFL) and it looks pleasant enough for most visual novels.
+**NOTE:** Please consider using Noto Sans as your game's system font. It is an open-source font designed by Google under the SIL Open Font License, and it looks pleasant enough for most visual novels.
 
 These are download links to all the NotoSans fonts referenced in the code:
 
