@@ -1,6 +1,8 @@
 # Support for (unofficial) fan translations in a Ren'Py game without further modification to the game files
 Support fan translations in your Ren'Py game without the translators needing to modify your code or redistribute altered versions of your game.
 
+Once you've integrated this code into your Ren'Py project, any folders dropped in the `tl` directory will appear as language options in the Preferences menu.
+
 We will use NotoSans, which is an open-source font designed by Google under the SIL Open Font License (and it looks pleasant enough for most visual novels).
 
 * NotoSans: https://fonts.google.com/noto/specimen/Noto+Sans
@@ -23,4 +25,6 @@ Place this font in your `game/fonts` directory
 3. Click on the text button that says `Generate Translations`
 
 4. A new folder should have generated in the `game/tl` directory
+
+5. Zip and upload this folder to your Itchio page, or figure out some way to allow fans to download it from you
 
